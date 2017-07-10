@@ -1,0 +1,225 @@
+/*
+Theme Name: Barao da Vila
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: site
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+site is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+ 
+#page{
+	font-family: Verdana, Geneva, sans-serif;
+	color:#3d240b;
+	text-align:center;
+	line-height:20px;
+	font-size:14px;
+
+	.roxo{
+		color:#514aa3;
+	}
+
+	a:hover, a:visited, a:link, a:active
+	{
+	    text-decoration: none;
+	}
+
+	h1,h2,h3,h4,h5,h6{
+		margin: 0;
+	}
+
+	h1{
+		color:#3d240b;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	h2{
+		color:#3d240b;
+		font-size: 30px;
+		font-weight: bold;		
+	}
+
+	h4{
+		font-size:18px;
+	}
+
+	h5{
+		font-size:16px;
+	}
+
+	@import 'header';
+	@import 'content';
+	@import 'footer';
+
+	.input-select{
+		border:1px solid #888a96;
+		padding:16px 10px;
+		height:auto !important;
+		border-radius: 6px;
+		margin-bottom:15px;
+	}
+
+	.input-text{
+		border:1px solid #888a96;
+		padding:25px 10px;
+		border-radius: 6px;
+		margin-bottom:15px;
+	}
+
+	.input-data{
+		border:2px solid #FFFFFF;
+		background-color:#514aa3;
+		padding:10px;
+		border-radius: 6px;
+	}
+
+
+	.input-text-branco{
+		border:2px solid #514aa3;
+		padding:10px;
+		border-radius: 6px;
+		width: 100%;
+	}
+
+	.input-checkbox{
+		display:block;
+		margin-left:20%;
+
+		span.wpcf7-list-item{
+			width:48%;
+			float:left;
+			text-align:left;
+			margin-bottom:10px;
+
+			input{
+				margin:0;
+				margin-right:10px;
+				vertical-align:middle;
+			}
+		}
+	}
+
+	.input-contatob{
+		border:0;
+		padding:10px;
+		border-radius: 6px;
+		background-color:#f0f2f4;
+		width:90%;
+	}
+
+	.btn-contato{
+		border:0;
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px;
+		padding:10px 70px;
+		background-color:#b1842c;
+		color:white;
+		margin-top:10px;
+	}
+
+	.btn-contato:hover{
+		background-color:#b5934e;
+	}
+
+	.btn-redondo{
+		-webkit-border-radius: 8px; 
+		-moz-border-radius: 8px; 
+		border-radius: 8px;
+		padding:15px 45px;
+		font-size:16px;
+		font-weight:bold;
+	}
+
+	.btn-roxo{
+		border:2px solid #544dad;
+		background-color:#514aa3;
+		color:#FFFFFF;
+		margin-top:25px;
+	    -webkit-transition-duration: 0.5s; /* Safari */
+	    transition-duration: 0.5s;
+	}
+
+	.btn-roxo:hover{
+		background-color:transparent;
+		color:#514aa3;
+	}
+
+	.btn-branco{
+		border:2px solid #FFFFFF;
+		background-color:transparent;
+		color:#FFFFFF;
+	    -webkit-transition-duration: 0.5s; /* Safari */
+	    transition-duration: 0.5s;
+	    display:inline-block;
+	}
+
+	.btn-branco:hover{
+		background-color:#FFFFFF;
+		color:#127cc1!important;
+	}
+
+	.form7{
+		margin-top:40px;
+
+		p{
+			margin-bottom:20px;
+		}
+	}
+
+	.separador{
+		height:1px;
+		width:35%;
+		background-color:#FFFFFF;
+		display:inline-block;
+		margin-bottom:30px;
+	}
+
+}
+
+.wow { visibility: hidden; }
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 26.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+}
+.videoWrapper iframe {
+	pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.e-cinza:hover{
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+
+.e-claro:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+
+
+

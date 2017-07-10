@@ -1,0 +1,114 @@
+#footer{
+	padding:60px 0;
+	background-color:#efaf04;
+    color:#FFFFFF;
+    a{
+        color:#FFFFFF;
+    }
+
+    .menu-footer{
+        display:inline-block;
+
+        div.menu-op{
+            float:left;
+            a{
+                color:white;
+                padding-bottom:8px;
+                padding:20px;
+            }
+            a:hover{
+                color:#CBC8E8;
+                -webkit-transition: color 0.5s linear; /* Saf3.2+, Chrome */
+                -moz-transition: color 0.5s linear; /* FF3.7+ */
+                -o-transition: color 0.5s linear; /* Opera 10.5 */
+                transition: color 0.5s linear;
+            }
+
+        }
+    }
+
+    div#redes_footer{
+        display:inline-block;
+
+        ul.redes_sociais_footer{
+            padding:0;
+            height: 50px;
+            text-align: right;
+            list-style:none;
+            margin-bottom:0;
+        }
+
+        ul.redes_sociais_footer li:hover{
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+        ul.redes_sociais_footer li{
+            margin-right: 5px;
+        }
+
+        ul.redes_sociais_footer a{
+            display: inline-block;
+            width:55px;
+            height:50px;
+        }
+
+        ul.redes_sociais_footer .youtube{
+            background-image: url("images/redes-bot.jpg");
+            background-position: 10px,center;
+            background-repeat:no-repeat;
+            width:55px;
+            height:50px;
+            display:inline-block;       
+        }
+
+        ul.redes_sociais_footer .instagram{
+            background-image: url("images/redes-bot.jpg");
+            background-position: -50px,center;
+            background-repeat:no-repeat;
+            width:55px;
+            height:50px;
+            display:inline-block;       
+        }
+
+        ul.redes_sociais_footer .twitter{
+            background-image: url("images/redes-bot.jpg");
+            background-position: -110px,center;
+            background-repeat:no-repeat;
+            width:55px;
+            height:50px;
+            display:inline-block;       
+        }
+
+    }
+}
+
+#contato{
+    padding:80px 0;
+    background-image: url("images/backgroundc.jpg") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h5{
+        margin-bottom:40px;
+    }
+
+    h2{
+        margin-bottom:25px;
+    }
+
+}
+
+@media (max-width: 991px) {  
+	
+}
+
+@media (min-width: 992px) {  
+  
+}
+
+

@@ -1,0 +1,137 @@
+#fotos{
+	padding:80px 0;
+	.col-md-4{
+		text-align:left;
+	}
+
+	h5{
+		line-height:22px;
+	}
+
+	ul{
+		color:#514aa3;
+		padding-left:15px;
+		li{
+			span{
+				color:#858585;
+			}
+		}
+		
+	}
+
+	.row{
+		margin-bottom:50px;
+	}
+
+	.row:last-child{
+		margin-bottom:0px;
+	}
+}
+
+#rifa{
+	padding:80px 0;
+	background-image: url("images/back2.jpg") ;
+
+	h5{
+		line-height:22px;
+	}
+
+	.row{
+		margin-bottom:70px;
+	}
+
+	.row:last-child{
+		margin-bottom:0px;
+	}
+
+	p{
+		margin-bottom:15px;
+		line-height:25px;
+	}
+}
+
+#localizacao{
+	padding:250px 0;
+	background-image: url("images/seimi-digital-maps.jpg") ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	.painel{
+		background-color:#ef4f4f;
+		color:#FFFFFF;
+		padding-top:35px;
+		padding-bottom:35px;
+		border-radius: 6px;
+	}
+
+	.destaque{
+		font-size:16px;
+	}
+}
+
+@media (max-width: 991px) {
+	.col-md-6{
+		margin-bottom: 10px;
+	}
+
+	.wrap span::after, .wrap span::before{
+
+	    background-color: transparent !important;
+	}
+	
+	#depoimento{
+		.dep-conteudo{
+			margin-bottom:50px;
+		}
+	}
+
+	#vantagens-home{
+		.col-md-6{
+			text-align:center !important;
+		}
+		.wrap{
+			margin-bottom:15px;
+		}
+		.wrapb{
+			margin-bottom:15px;
+		}
+	}
+
+
+	#rifa{
+
+		.col-md-4{
+			margin-bottom:50px !important;
+		}
+		.row{
+			margin-bottom:0px !important;
+		}
+
+		h5{
+			margin-bottom:50px !important;
+		}
+	}
+
+	#fotos{
+		h2{
+			margin-top:30px;
+		}
+
+		.col-md-4{
+			margin-bottom:50px !important;
+		}
+		.row{
+			margin-bottom:0px !important;
+		}
+
+		h5{
+			margin-bottom:50px !important;
+		}
+	}
+}
+
+
